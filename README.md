@@ -10,6 +10,40 @@ Chessier is a mobile chess game built with Flutter. It features a classic chessb
 - Check and Checkmate Detection: The game notifies you when a king is in check or checkmate.
 - Captured Pieces Display: Shows which pieces have been taken by each player.
 
+# How to build and Run
+Requirements
+- Flutter SDK
+- Android Studio or VS Code (with Flutter and Dart plugins)
+- Git
+
+Setup Steps
+- Clone the repository:
+Install dependencies:
+
+- Run the app:
+You can run on an emulator or a physical device.
+
+# Project Structure
+- lib/
+  main.dart – App entry point and route management.
+  loading_screen.dart – Shows a loading spinner with a background image.
+  welcome_screen.dart – Welcome UI with a "Get Started" button.
+  game_board.dart – Main chess game logic and UI.
+  components/ – Chess piece and board square widgets.
+- android/ and ios/ – Platform-specific files.
+- assets/ or lib/images/ – Contains chess piece images and background images.
+
+# Tools & Technologies
+- Flutter (UI framework)
+- Dart (programming language)
+- Android Studio or VS Code (IDE)
+- Git (version control)
+
+# How It Works
+- Loading Screen: Displays a splash image and spinner for 2 seconds.
+- Welcome Screen: Shows a welcome message and a "Get Started" button.
+- Game Board: The chess game starts after pressing "Get Started".
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
